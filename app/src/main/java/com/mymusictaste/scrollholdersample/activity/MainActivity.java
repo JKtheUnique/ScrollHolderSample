@@ -177,7 +177,7 @@ public class MainActivity extends ScrollHolderActivity implements ScrollTabHolde
     }
 
 
-    public void setSettingScroll(){
+    public void setSampleScroll(){
         if(mViewPager.getCurrentItem() == mPagerAdapter.getCount()-1){
             ViewHelper.setTranslationY(mHeader, -AppUtil.getPxFromDP(48)+AppUtil.getPxFromDP(48));
             mPagerSlidingTabStrip.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
